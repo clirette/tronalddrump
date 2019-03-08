@@ -92,7 +92,25 @@ body:after {
 
   #drump-button {
     position: relative;
-    /* left: 50%; */
+    margin-top: 40%;
+  }
+}
+
+@media (max-width: 414px) and (max-height: 736px) {
+  .logo {
+    height: 175px;
+  }
+
+  .spinner {
+    height: 125px;
+  }
+
+  .container h1 {
+    font-size: 26px;
+  }
+
+  #drump-button {
+    position: relative;
     margin-top: 40%;
   }
 }
