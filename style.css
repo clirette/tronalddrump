@@ -89,4 +89,10 @@ body:after {
   .container h1 {
     font-size: 20px;
   }
+
+  #drump-button {
+    position: relative;
+    /* left: 50%; */
+    margin-top: 50%;
+  }
 }
